@@ -10,9 +10,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title:'연구지원팀WIKI',
+  url:'https://istar1214.github.io',
+  baseUrl:'/Research-Support-Wiki-/',
+  projectName:'Research-Support-Wiki-',
+  organizationName:'istar1214',
+  trailingSlash: false,
+  
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -23,12 +27,12 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Research-Support-Wiki-/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'istar1214', // Usually your GitHub org/user name.
+  projectName: 'Research-Support-Wiki-', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -83,7 +87,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: '연구지원팀 WIKI',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -93,9 +97,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '연구지원팀 규정',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '공지사항', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
