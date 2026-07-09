@@ -99,10 +99,10 @@ const config = {
             position: 'left',
             label: '연구지원팀 규정',
           },
-          {to: '/blog', label: '공지사항', position: 'left'},
+          {to: '/downloads', label: '규정 자료실', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://research.hanyang.ac.kr/support/rule1.php',
+            label: '규정 자료실',
             position: 'right',
           },
         ],
