@@ -86,27 +86,26 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
-      navbar: {
-        title: '연구지원팀 WIKI',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '연구지원팀 규정',
-          },
-          {to: '/downloads', label: '규정 자료실', position: 'left'},
-          {
-            href: 'https://research.hanyang.ac.kr/support/rule1.php',
-            label: '규정 자료실',
-            position: 'right',
-          },
-        ],
+    navbar: {
+      title: '연구지원팀 WIKI',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
       },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: '연구지원팀 규정',
+        },
+        {
+          href: 'https://research.hanyang.ac.kr/support/rule1.php',
+          label: '규정 자료실',
+          position: 'left',
+        },
+      ],
+    },
       footer: {
         style: 'dark',
         links: [
